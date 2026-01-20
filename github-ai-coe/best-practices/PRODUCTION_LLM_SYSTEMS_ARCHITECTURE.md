@@ -1,8 +1,8 @@
 # Production LLM & Agent Systems Architecture Guide
 
-## AI CoE Best Practices for Oracle Cloud Infrastructure
+**Oracle AI Center of Excellence | January 2026**
 
-**Version**: 1.0 | **Last Updated**: January 2026 | **Status**: Authoritative Reference
+> **Critical Update (June 2026)**: The `GenerateText` and `SummarizeText` APIs are deprecated. Use the **Chat API** exclusively for all inference requests.
 
 ---
 
@@ -100,7 +100,7 @@ interface ChatResponse {
 }
 ```
 
-#### IDE Integration (OpenCourse Agents)
+#### IDE Integration (OpenCode Agents)
 ```yaml
 # OpenCode Configuration for Oracle GenAI
 mcpServers:

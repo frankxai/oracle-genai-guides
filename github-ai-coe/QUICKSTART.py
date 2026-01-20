@@ -1,22 +1,13 @@
 #!/usr/bin/env python3
 """
-FrankX Oracle GenAI Quickstart Script - CORRECTED & VALIDATED VERSION
+Oracle GenAI Quickstart CLI - Production-ready Chat API client.
 
-A production-ready Python client for Oracle GenAI Service with:
-- Easy authentication setup
-- Chat completion
-- Embedding generation
-- Cost tracking
-
-IMPORTANT NOTES (Validated against Oracle Official Documentation Jan 2025):
-1. Oracle GenAI pricing is PER CHARACTER, not per token
-   - 10,000 characters = 10,000 transactions
-   - See: https://docs.oracle.com/en-us/iaas/Content/generative-ai/pay-on-demand.htm
-2. Uses current OCI SDK (version 2.150+): oci.generative_ai_inference
-3. Model names are versioned: cohere.command-r-plus-08-2024, not cohere.command-r-plus
+Key points (Jan 2026):
+- Pricing: per CHARACTER, not token
+- SDK: oci.generative_ai_inference (v2.150+)
+- API: Chat API only (GenerateText/SummarizeText deprecated June 2026)
 
 Usage:
-    python QUICKSTART.py --help
     python QUICKSTART.py chat --message "Hello, Oracle GenAI!"
     python QUICKSTART.py embed --text "Text to embed"
     python QUICKSTART.py setup --interactive

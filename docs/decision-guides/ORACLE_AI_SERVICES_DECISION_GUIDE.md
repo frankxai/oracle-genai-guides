@@ -1,8 +1,10 @@
 # Oracle AI Services Decision Guide
 
-## Overview
+**Oracle AI Center of Excellence | January 2026**
 
-This guide helps architects and developers choose the right Oracle AI service for their use case. With multiple offerings (GenAI Service, AI Agent, Agent Hub, AI Agent Studio, Private AI Agent Studio), understanding when to use each is critical.
+> **API Note**: Use the **Chat API** for all OCI GenAI inference. The `GenerateText` and `SummarizeText` APIs are deprecated (June 2026).
+
+---
 
 ## Service Comparison Matrix
 
@@ -95,7 +97,7 @@ Recommended Stack:
 │   └── Custom tool definitions (file system, git, APIs)
 ├── GenAI Service OR Grok Code-1
 │   └── Model serving
-└── OpenCourse Integration
+└── OpenCode Integration
     ├── OpenCode
     ├── Roo Code
     └── Kilo Code

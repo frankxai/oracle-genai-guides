@@ -61,7 +61,7 @@ This document outlines FrankX's comprehensive content strategy for establishing 
 4. Cost optimization strategies
 5. Observability and governance
 
-### Pillar 2: OpenCourse Coding Agents Integration
+### Pillar 2: OpenCode Coding Agents Integration
 
 **Theme**: Connecting coding agents to enterprise AI backends
 
@@ -260,7 +260,7 @@ frankx-oracle-genai-content/
 
 | Priority | Content Type | Target Date | Effort |
 |----------|--------------|-------------|--------|
-| 🔴 P0 | Connecting OpenCourse Agents to Oracle GenAI | Week 1 | 2 days |
+| 🔴 P0 | Connecting OpenCode Agents to Oracle GenAI | Week 1 | 2 days |
 | 🔴 P0 | Oracle AI Services Decision Guide | Week 1 | 1 day |
 | 🔴 P0 | Production Architecture Best Practices | Week 1 | 2 days |
 | 🟡 P1 | Part 1: Architecture Overview Blog | Week 2 | 1 day |
@@ -310,7 +310,7 @@ frankx-oracle-genai-content/
 
 ### Strategic Recommendations
 
-1. **Lead with integration content**: The "OpenCourse Agents + Oracle GenAI" article fills a gap and drives developer traffic.
+1. **Lead with integration content**: The "OpenCode Agents + Oracle GenAI" article fills a gap and drives developer traffic.
 
 2. **Build the GitHub repo first**: A well-structured repository with READMEs and samples establishes credibility.
 
@@ -335,7 +335,7 @@ frankx-oracle-genai-content/
 
 ### Immediate Actions (This Week)
 
-1. [ ] Publish "Connecting OpenCourse Agents to Oracle GenAI" blog
+1. [ ] Publish "Connecting OpenCode Agents to Oracle GenAI" blog
 2. [ ] Create GitHub repo with full structure
 3. [ ] Publish "Oracle AI Services Decision Guide"
 4. [ ] Share strategy with Oracle team for feedback

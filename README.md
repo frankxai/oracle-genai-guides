@@ -1,181 +1,102 @@
-# FrankX Oracle GenAI & AI Agents Content Strategy
+# Oracle GenAI Content Strategy
 
-> Comprehensive content strategy and resources for building production-grade GenAI systems on Oracle Cloud Infrastructure.
+**Oracle AI Center of Excellence | January 2026**
 
-## 🎯 What This Repository Contains
-
-This repository contains FrankX's complete content strategy for establishing thought leadership in the Oracle GenAI ecosystem:
-
-- **Blog Articles** - Production-ready content for publishing
-- **Reference Architectures** - Enterprise-grade system designs
-- **Code Samples** - Working implementations
-- **Decision Guides** - Service selection frameworks
-- **Workshops** - Hands-on learning materials
-
-## 📚 Content Pillars
-
-### 1. Production Systems with Oracle GenAI & AI Agents
-Building enterprise-grade LLM and agent systems on OCI.
-
-**Key Resources:**
-- [Architecture Overview (Blog Series Part 1)](content/blog/series-production-genai-oci/part-01-architecture-overview.md)
-- [Production LLM Systems Best Practices](github-ai-coe/best-practices/PRODUCTION_LLM_SYSTEMS_ARCHITECTURE.md)
-- [Enterprise RAG Reference Architecture](github-ai-coe/reference-architectures/enterprise-rag/README.md)
-
-### 2. OpenCourse Coding Agents Integration
-Connecting OpenCode, Roo Code, and Kilo Code to Oracle GenAI and Grok Code-1.
-
-**Key Resources:**
-- [Connecting OpenCourse Agents to Oracle GenAI](content/blog/connecting-opencourse-agents-to-oracle-genai.md)
-- [QuickStart Script](github-ai-coe/QUICKSTART.py)
-
-### 3. AI CoE Guidance Repository
-Centralized best practices for enterprise Oracle AI adoption.
-
-**Key Resources:**
-- [Oracle AI Services Decision Guide](docs/decision-guides/ORACLE_AI_SERVICES_DECISION_GUIDE.md)
-- [Master Content Strategy](MASTER_CONTENT_STRATEGY.md)
-- [Synthesis Report](SYNTHESIS_REPORT.md)
-
-## 🚀 Quick Start
-
-### 1. Explore the Content Strategy
-```bash
-# Read the executive summary
-cat CONTENT_STRATEGY.md
-
-# Or dive deep into the full strategy
-cat MASTER_CONTENT_STRATEGY.md
-```
-
-### 2. Get Started with Oracle GenAI
-```bash
-# Run the quickstart script
-python github-ai-coe/QUICKSTART.py setup
-
-# Try a chat
-python github-ai-coe/QUICKSTART.py chat --message "Hello, Oracle GenAI!"
-
-# List models
-python github-ai-coe/QUICKSTART.py models
-
-# Check costs
-python github-ai-coe/QUICKSTART.py costs
-```
-
-### 3. Read the Blog Series
-Start with Part 1: [Architecture Overview](content/blog/series-production-genai-oci/part-01-architecture-overview.md)
-
-## 📁 Repository Structure
-
-```
-frankx-oracle-genai-content/
-├── README.md                          # This file
-├── CONTENT_STRATEGY.md                # Executive summary
-├── MASTER_CONTENT_STRATEGY.md         # Full strategy document
-├── SYNTHESIS_REPORT.md                # Research synthesis
-│
-├── content/
-│   ├── blog/                          # Blog articles
-│   │   ├── connecting-opencourse-agents-to-oracle-genai.md
-│   │   ├── oracle-ai-services-decision-guide.md
-│   │   └── series-production-genai-oci/
-│   │       └── part-01-architecture-overview.md
-│   ├── architecture-center/
-│   │   └── production-llm-agents-architecture.md
-│   └── playbooks/
-│       └── getting-started-oci-genai.md
-│
-├── github-ai-coe/                     # AI CoE Guidance Repository
-│   ├── QUICKSTART.py                  # Quickstart CLI tool
-│   ├── best-practices/
-│   │   └── PRODUCTION_LLM_SYSTEMS_ARCHITECTURE.md
-│   ├── reference-architectures/
-│   │   └── enterprise-rag/
-│   │       └── README.md
-│   └── guides/
-│       └── service-selection-guide.md
-│
-├── docs/
-│   ├── decision-guides/
-│   │   └── ORACLE_AI_SERVICES_DECISION_GUIDE.md
-│   └── comparison-matrices/
-│       └── oracle-vs-aws-vs-gcp.md
-│
-└── scripts/
-    ├── oci-genai/
-    │   ├── setup.py
-    │   └── chat-client.py
-    └── integration/
-        ├── opencode-mcp-server/
-        └── roocode-config/
-```
-
-## 📊 Blog Series: "Production-Ready GenAI on Oracle Cloud Infrastructure"
-
-| Part | Title | Status |
-|------|-------|--------|
-| 1 | Architecture Overview (Six-Plane Model) | ✅ Complete |
-| 2 | Agent Patterns (Managed vs Framework) | ✅ Complete |
-| 3 | Operating Model (Governance, Observability) | ✅ Complete |
-| 4 | Enterprise RAG Systems | 📋 Planned |
-| 5 | Multi-Agent Orchestration | 📋 Planned |
-| 6 | Cost Optimization & Scaling | 📋 Planned |
-| 7 | Production Deployment | 📋 Planned |
-
-### ✅ Core Series Complete (Parts 1-3)
-The foundational three-part series is now complete and covers:
-- **Part 1**: Enterprise architecture blueprint (four/six-plane model)
-- **Part 2**: Agent patterns - managed (OCI Agent Platform/Agent Hub) vs framework (LangGraph/LangChain)
-- **Part 3**: Operating model - governance, observability, cost management, incident response
-
-## 🎓 Workshops
-
-| Lab | Title | Duration |
-|-----|-------|----------|
-| 1 | Getting Started with OCI GenAI | 2 hours |
-| 2 | Building AI Agents | 3 hours |
-| 3 | RAG Systems on OCI | 3 hours |
-| 4 | Production Deployment | 4 hours |
-
-## 🔗 Key Oracle References
-
-| Repository | URL | Purpose |
-|------------|-----|---------|
-| `oracle/langchain-oracle` | [GitHub](https://github.com/oracle/langchain-oracle) | Official LangChain integration |
-| `oracle/agent-spec` | [GitHub](https://github.com/oracle/agent-spec) | Open Agent Specification |
-| `oracle-devrel/ai-solutions` | [GitHub](https://github.com/oracle-devrel/ai-solutions) | Reference implementations |
-| `oracle-quickstart/oci-ai-blueprints` | [GitHub](https://github.com/oracle-quickstart/oci-ai-blueprints) | Production deployments |
-
-## 📈 Success Metrics
-
-| Metric | Target (3 months) | Target (6 months) |
-|--------|-------------------|-------------------|
-| GitHub Stars | 200 | 500 |
-| Blog Views | 5,000/article | 10,000/article |
-| Workshop Attendance | 50/lab | 100/lab |
-| Enterprise Inquiries | 10 | 25 |
-
-## 🤝 Contributing
-
-Contributions are welcome! Please read our [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
-
-## 📄 License
-
-This content is licensed under the FrankX Content License. See [LICENSE](LICENSE) for details.
+A curated collection of architectural guidance, implementation patterns, and production-ready code for building enterprise GenAI systems on Oracle Cloud Infrastructure.
 
 ---
 
-## Pricing Note
+## Oracle AI Services Landscape
 
-> **Oracle GenAI Pricing**: Oracle charges per CHARACTER, not per token. For on-demand inference:
-> - Chat models: (prompt_length + response_length) in characters
-> - Embedding models: input_length in characters
-> - 10,000 characters = 10,000 transactions
-> - See: https://docs.oracle.com/en-us/iaas/Content/generative-ai/pay-on-demand.htm
+Understanding the Oracle AI ecosystem is essential for solution architects designing production systems.
+
+| Service | Purpose | GA Status |
+|---------|---------|-----------|
+| **OCI GenAI Service** | LLM inference via Chat API | GA |
+| **OCI AI Agent Platform** | Enterprise agent orchestration | GA (March 2025) |
+| **Agent Hub** | Multi-agent routing & coordination | Beta (Nov 2025) |
+| **AI Agent Studio** | Low-code agent builder for Fusion Apps | GA (March 2025) |
+
+### Key Architectural Decision
+
+**OCI GenAI Service ≠ AI Agent Platform**
+
+The GenAI Service provides raw LLM inference through the **Chat API** (GenerateText/SummarizeText APIs are deprecated as of June 2026). The AI Agent Platform builds on this foundation, adding tool calling, memory management, and enterprise orchestration capabilities.
 
 ---
 
-**Maintained by FrankX AI Practice**
+## Recommended Reading
 
-*For questions, contact: ai-practice@frankx.io*
+**For Solution Architects:**
+
+- [Production Architecture Guide](github-ai-coe/best-practices/PRODUCTION_LLM_SYSTEMS_ARCHITECTURE.md) — Enterprise six-plane model for GenAI on OCI
+- [AI Services Decision Guide](docs/decision-guides/ORACLE_AI_SERVICES_DECISION_GUIDE.md) — Service selection framework
+
+**For Developer Integration:**
+
+- [OpenCode Integration Guide](content/blog/connecting-opencode-agents-to-oracle-genai.md) — Connect IDE coding agents to OCI GenAI
+- [QUICKSTART.py](github-ai-coe/QUICKSTART.py) — Production-ready CLI with cost tracking
+
+**Reference Architectures:**
+
+- [Enterprise RAG](github-ai-coe/reference-architectures/enterprise-rag/README.md) — Retrieval-augmented generation at scale
+
+---
+
+## Quick Start: Chat API Integration
+
+The GenAI Service uses the **Chat API** exclusively. Ensure your code reflects this:
+
+```python
+from oci.generative_ai_inference import GenerativeAiInferenceClient
+from oci.generative_ai_inference.models import (
+    ChatDetails, CohereChatRequest, OnDemandServingMode
+)
+
+client = GenerativeAiInferenceClient(config, region="us-phoenix-1")
+request = CohereChatRequest(message="Hello", temperature=0.7)
+response = client.chat(
+    chat_details=request,
+    compartment_id=compartment_id,
+    serving_mode=OnDemandServingMode(model_id="cohere.command-r-plus-08-2024")
+)
+```
+
+**Do not use:** `GenerateText`, `SummarizeText` (deprecated June 2026)
+
+---
+
+## Pricing Model
+
+OCI GenAI pricing is **per character**, not per token.
+
+| Operation | Billing Unit |
+|-----------|--------------|
+| Chat API | prompt_chars + response_chars |
+| Embeddings | input_chars |
+
+10,000 characters = 10,000 transactions.
+
+---
+
+## Oracle Reference Repositories
+
+| Repository | Purpose |
+|------------|---------|
+| [oracle/langchain-oracle](https://github.com/oracle/langchain-oracle) | Official LangChain integration |
+| [oracle/agent-spec](https://github.com/oracle/agent-spec) | Open Agent Specification |
+| [oracle-devrel/ai-solutions](https://github.com/oracle-devrel/ai-solutions) | Reference implementations |
+| [oracle-quickstart/oci-ai-blueprints](https://github.com/oracle-quickstart/oci-ai-blueprints) | OKE deployments |
+
+---
+
+## Document Versioning
+
+| Version | Date | Changes |
+|---------|------|---------|
+| 1.1 | Jan 2026 | Chat API migration, Agent Platform updates |
+| 1.0 | Jan 2025 | Initial release |
+
+---
+
+*Maintained by FrankX AI Practice | Oracle AI Center of Excellence*

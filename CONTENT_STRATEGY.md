@@ -11,7 +11,7 @@ This repository contains FrankX's comprehensive content strategy and assets for 
 - **Goal**: Establish best practices for production deployments
 - **Formats**: Architecture Center articles, GitHub samples, playbooks
 
-### 2. OpenCourse Coding Agents Integration
+### 2. OpenCode Coding Agents Integration
 - **Audience**: Developers, engineering teams adopting AI-assisted coding
 - **Goal**: Connect Oracle GenAI/Grok with opencode, roo-code, kilo-code
 - **Formats**: Technical guides, integration samples, comparison matrices
@@ -44,7 +44,7 @@ This repository contains FrankX's comprehensive content strategy and assets for 
 - [ ] Cost optimization strategies
 
 ### Phase 3: Integration & Ecosystem (Weeks 5-6)
-- [ ] OpenCourse agents integration guide
+- [ ] OpenCode agents integration guide
 - [ ] Grok Code-1 integration patterns
 - [ ] Cross-platform comparison
 
